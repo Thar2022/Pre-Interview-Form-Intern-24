@@ -1,0 +1,9 @@
+1)ติดตั้ง node.js เพื่อเป็นตัวจัดการสภาพแวดล้อมของโปรเจค
+2)สร้างโฟลเดอร์สำหรับทำโปรเจค
+3)สร้างไฟล์ package.json ด้วยคำสั่ง npm init เพื่อจัดการแพ็คเกจและการติดตั้ง dependencies ต่าง ๆ 
+4)ติดตั้ง TypeScript compiler (tsc)  ด้วยคำสั่ง npm install typescript --save-dev
+5)สร้างไฟล์ tsconfig.json ด้วยคำสั่ง tsc --init เพื่อ เป็นไฟล์กำหนดค่าต่าง ๆ สำหรับ TypeScript 
+6)ติดตั้งเครื่องมือทดสอบ TypeScript ชื่อ Mocha ด้วยคำวสั่ง npm install --save-dev mocha 
+7)ติดตั้ง Jest ด้วยคำสั่ง npm install --save-dev jest เพื่อใช้สำหรับการทดสอบโค้ดของ JavaScript หรือ TypeScript 
+8)สร้างโฟลเดอร์ src แล้วข้างในให้สร้างไฟล์ merge สำหรับแก้ไขปัญหา
+9)สร้างโฟลเดอร์ test แล้วข้างในให้สร้างไฟล์ merge.spec.ts สำหรับ unit test
